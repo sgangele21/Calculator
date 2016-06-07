@@ -26,6 +26,10 @@ enum CalculatorButtons: String {
     case Multiplication = "*"
     case Division = "/"
     case Equals = "="
+    
+    var change: String {
+        return "Sahil"
+    }
 }
 
 // MARK: Errors
